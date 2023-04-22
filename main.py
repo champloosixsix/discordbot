@@ -53,4 +53,4 @@ async def on_member_join(member):
     if guild.system_channel is not None:
         await guild.system_channel.send(f'Yo {member.mention}! Welcome to the {guild.name}. Go check out the rules and introduce yourself.')    
 
-client.run('MTA4OTMzODUzNDQ0NTQ2OTc2Nw.G4GVLn.gfSnrsas1B5dIDvrLGcIWAsLgV3IXKKjDDMSdA', log_handler=handler, log_level=logging.DEBUG)
+client.run('TOKEN', log_handler=handler, log_level=logging.DEBUG)
